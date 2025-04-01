@@ -168,7 +168,7 @@ Next we will look at the IP again using the VM browser now that we have connecte
   
 </p>
 <br />
-
+ 
 EXAMPLE 4D
 <p>
 <img src="https://i.imgur.com/lQsISWb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -185,4 +185,4 @@ Virtual Machin IP VPN (Japan) 212.102.51.251
 <br />
 If you no longer need the VM, ensure to remove it from the Asure account for unwanted charges.
 
-END OF TUTORIAL
+⭐ END OF TUTORIAL ⭐
