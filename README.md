@@ -3,12 +3,12 @@
 <img src="https://i.imgur.com/MntON5Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-<h1>VPN - Prerequisites and Installation</h1>
+<h1>VPN - Prerequisites & Installation</h1>
 This tutorial outlines the prerequisites and installation of using a VPN.<br />
 
 <h2>Environments and Technologies Used</h2>
 
-- A VPN (Proton VPN)
+- A VPN (We'll be using Proton VPN)
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
@@ -21,21 +21,20 @@ This tutorial outlines the prerequisites and installation of using a VPN.<br />
 
 - STEP 1 - Locate Local IP
 - STEP 2 - Setting Up VM Using Azure
-- STEP 3 - Locating IP Through VM (France)
-- STEP 4 - Connecting to VPN Through VM
-- STEP 5 - Locating IP Through VPN (Japan)
+- STEP 3 - Locating the IP Through the VM
+- STEP 4 - Connecting to the VPN Through the VM
+- STEP 5 - Locating IP Through the VPN
 
 <h2>Installation Steps</h2>
 
-STEP 1 - Locate your own personal IP address by going to "www.whatismyipaddress.com" which will be able to show you your local IP address. We will use this later as well. See EXAMPLE 1A below.
-
+STEP 1 - Locate your own personal IP by going to "www.whatismyipaddress.com" which will be able to show you your local IP address. We will use this later as well.
 EXAMPLE 1A
 <p>
 <img src="https://i.imgur.com/qDgu5K6.png)" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-Next we will set up a virtual machine on Azure. 
+Next we will set up a VM on MS Azure. 
   
 </p>
 <br />
@@ -56,7 +55,7 @@ EXAMPLE 2B
 </p>
 <p>
 
-For the Username and Password you can create your custom information, just record it personally.
+For the Username and Password you can create your custom credentials, just make sure to save it somewhere you can easily remember.
   
 </p>
 <br />
