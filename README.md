@@ -1,6 +1,6 @@
 # Vitual Private Network (VPN)
 <p align="center">
-<img src="https://i.imgur.com/MntON5Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://its.ucsc.edu/vpn/images/vpn-banner2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <h1>VPN - Prerequisites & Installation</h1>
@@ -28,9 +28,10 @@ This tutorial outlines the prerequisites and installation of using a VPN.<br />
 <h2>Installation Steps</h2>
 
 STEP 1 - Locate your own personal IP by going to "www.whatismyipaddress.com" which will be able to show you your local IP address. We will use this later as well.
-EXAMPLE 1A
 <p>
-<img src="https://i.imgur.com/qDgu5K6.png)" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<p>
+<img src="https://i.imgur.com/cFxtnVJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -39,41 +40,42 @@ Next we will set up a VM on MS Azure.
 </p>
 <br />
 
-STEP 2 - Go to www.portal.azure.com and find Virtual Machines. (Create a free account with $200 if you need to). See Example 2A looking at the Virtual Machine set up page. 
+STEP 2 - Go to www.portal.azure.com and find Virtual Machines. (Create a free account with $200 if you need to). 
 
-EXAMPLE 2A
+  *See the examples below for the Virtual Machine set up page.*
 <p>
 <img src="https://i.imgur.com/K9oaS2z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-Creating the Virtual Machine on Example 2B the VM as “VM-FranceCentral” and select that for the REGION as well. Ensure the other items are selected as shown in EXAMPLE 2B & 2C.
+Create the Virtual Machine in the example below and select whatever REGION you prefer. Ensure the other items are selected as shown in the next two pictures below.
+(The region you choose will be the region shown within your VM while looking at your IP With out a VPN)
 
-EXAMPLE 2B
+(Click to magnify)
 <p>
-<img src="https://i.imgur.com/u3vclL3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/8WdUuXQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-For the Username and Password you can create your custom credentials, just make sure to save it somewhere you can easily remember.
+For the Username and Password you can create your custom credentials, *just make sure to save it somewhere you can easily remember*.
   
 </p>
 <br />
 
-EXAMPLE 2C
+*EXAMPLE*
 <p>
 <img src="https://i.imgur.com/rXIj3Zb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-Select the “Networking” tab towards the top of the page and view EXAMPLE 2D inputs to match. 
+Select the “Networking” tab towards the top of the Azure VM page and view the image below to match. 
   
 </p>
 <br />
 
-EXAMPLE 2D
+*EXAMPLE*
 <p>
-<img src="https://i.imgur.com/OgYgNLK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/egDvzHq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -82,105 +84,109 @@ Then select “Review and Create”, once it passes validation select “Create�
 </p>
 <br />
 
-NEXT: At the Virtual Machine we find that the IP to the Virtual Machine is “20.216.176.18”. See EXAMPLE 2E
-
-EXAMPLE 2E
-
+NEXT: At the Virtual Machine we find that the IP to the Virtual Machine is *“20.109.13.170”*. (See *EXAMPLE* below)
+</p>
+<br />
+*EXAMPLE*
 <p>
-<img src="https://i.imgur.com/ZlH9zI5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/ioSGruE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 
 STEP 3 – Log Into the VM and Find IP Address
 <p>
-Now that we have set up the Virtual Machine we will connecting to it using the application “Remote Desktop Connection” (EXAMPLE 3A) and input the IP address for the VM that we located in EXAMPLE 2E and then input the set credentials we set when creating the VM (see EXAMPLE 3B). Once logged in, we will open the web browser and again look up www.whatismyipaddress.com (EXAMPLE 3C).
-
-  
-</p>
-<br />
-EXAMPLE 3A
-<p>
-<img src="https://i.imgur.com/YPBkMau.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+Now that we have set up the Virtual Machine we will connecting to it using the application “Remote Desktop Connection” and input the IP address for the VM that we located in the EXAMPLE above. Next input the set credentials we set when creating the VM. Once logged in, we will open the web browser and again look up www.whatismyipaddress.com.
 
   
 </p>
 <br />
 
-EXAMPLE 3B
+*EXAMPLE* - (*YOUR* IPs MUST MATCH)
 <p>
-<img src="https://i.imgur.com/oPJr2w2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/66Gvk3r.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-When we look up the IP address for this VM through www.whatismyipaddress.com we see that this VM is showing the location for France (EXAMPLE 3C).
   
 </p>
 <br />
 
-EXAMPLE 3C
+*EXAMPLE* - MAC OS (*YOUR* IPs MUST MATCH)
 <p>
-<img src="https://i.imgur.com/nWlX2UM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UKHc92T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/obSCLLq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+When we look up the IP address for this VM through www.whatismyipaddress.com we see what this VM is showing the location for.
+  You should see the region you selected to house the VM.
+</p>
+<br />
+
+*EXAMPLE*
+<p>
+<img src="https://i.imgur.com/eqZ9inU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 STEP 4 – CONNECTING TO VPN (Free Version)
 
-Using the local computer go to protonvpn.com and create a free account (if you use the VM then French will display on your browser, so use local computer desktop). Once you are logged into your account, copy the URL from the Proton VPN website (EXAMPLE 4A) and then paste the URL to the VM web browser. 
+Using the local computer go to protonvpn.com and create a free account. *Be sure to keep track of your credentials*. Once you are logged into your account, Proceed to the VM web browser to download & install the program. 
 
   
 </p>
 <br />
 
-EXAMPLE 4A
 <p>
-<img src="https://i.imgur.com/orO2O5y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://res.cloudinary.com/dbulfrlrz/images/w_1200,h_605,c_scale/f_auto,q_auto/v1721663947/wp-vpn/sign-in-2/sign-in-2.png?_i=AA" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 <p>
 
-Once you have logged into your Proton VPN account on the VM, you will select “Downloads” and choose to download the “Windows” version. Once the application Proton VPN is installed we will log in using the credentials we used when setting up a free account on Proton VPN. Then connect to the VPN through the installed app. See EXAMPLE 4B when this steps are completed.  
+Once you have logged into your Proton VPN account on the VM, you will select “Downloads” and choose to download the “Windows” version. Once the application Proton VPN is installed we will log in using the credentials we used when setting up a free account on Proton VPN. Then connect to the VPN through the installed app. 
+</p>
+<br />
+<img src="https://i.imgur.com/0V5GMWX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p>
+
+See *EXAMPLE* below when the steps are completed.  
+  
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/CcSTBkW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+On the left hand side of the VPN you can see the country where your VPN is conected too. The image above shows the VPN being connected to an IP in the USA.
   
 </p>
 <br />
 
-
-EXAMPLE 4B
 <p>
-<img src="https://i.imgur.com/oqPHozb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 <p>
 
-On the left hand side of the VPN you can select a country where you want your VPN to be, the image below shows the VPN being connected to an IP in Japan. See EXAMPLE 4C
-  
-</p>
-<br />
-
-EXAMPLE 4C
-<p>
-<img src="https://i.imgur.com/6Rdgg6B.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-Next we will look at the IP again using the VM browser now that we have connected the VPN to Japan. The website www.whatismyipaddress.com shows yet another IP address using the VPN from Japan. This is quite amazing.
-  
+Next we will look at the IP again using the VM browser now that we have connected the VPN to America. The website www.whatismyipaddress.com should reflect that IP address we just saw in the VPN.
 </p>
 <br />
  
-EXAMPLE 4D
 <p>
-<img src="https://i.imgur.com/lQsISWb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/L7CG91R.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-Looking at this exercise we see that we have utilized 3 different IP addresses just from your local computer to connect to the internet.
-Home IP (USA): 137.103.51.136
-Virtual Machin IP (France): 20.216.176.18
-Virtual Machin IP VPN (Japan) 212.102.51.251
+Looking back at this exercise we see that we have utilized 3 different IP addresses just from your local computer to connect to the internet.
 
   
 </p>
 <br />
-Congratulations.
+🎉 Congratulations. 🎊
+</p>
+You have successfully downloaded, installed, and set up a VPN inside a Windows virtual machine.
+</p>
 If you no longer need the VM, ensure to remove it from the Asure account for unwanted charges.
