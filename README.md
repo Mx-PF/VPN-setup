@@ -1,10 +1,10 @@
-# Setting Up a VPN in Azure
+<h1 align="center">  Setting Up a VPN in Azure </h1>
 
 <p align="center">
 <img src="https://its.ucsc.edu/vpn/images/vpn-banner2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-This guide shows you how to set up a VPN on an Azure Virtual Machine using Proton VPN.
+<h1 align="center"> This guide shows you how to set up a VPN on an Azure Virtual Machine using Proton VPN. </h1> 
 
 ## Tools You’ll Use
 - Proton VPN (free version)
@@ -31,7 +31,7 @@ This guide shows you how to set up a VPN on an Azure Virtual Machine using Proto
 ---
 
 ### Step 2: Set Up a Virtual Machine in Azure
-- Go to `www.portal.azure.com`. Sign up for a free account if needed (it gives $200 credit).
+- Go to `www.portal.azure.com`. Sign up for a free account if needed (it gives a $200 credit).
 - Find “Virtual Machines” and create a new one.
 - Choose any region you prefer. Match the settings in the images below.  
   <img src="https://i.imgur.com/K9oaS2z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
